@@ -1,4 +1,6 @@
-Network model of the parkinsonian motor network model including a cortico-basal ganglia network coupled to a motoneuron pool. The model simulates DBS to test tremor- and beta-based closed-loop DBS control strategies.
+Network model of the parkinsonian motor network model including a cortico-basal ganglia network coupled to a motoneuron pool. The model simulates DBS to test tremor- and beta-based closed-loop DBS control strategies. A journal paper describing the model has been published at https://iopscience.iop.org/article/10.1088/1741-2552/acfbfa/meta. If using the model, reference it's original publication as follows:
+
+Fleming, J.E., Senneff, S. and Lowery, M.M., 2023. Multivariable closed-loop control of deep brain stimulation for Parkinson’s disease. Journal of Neural Engineering, 20(5), p.056029.
 
 Model Requirements: - Model is simulated using PyNN with NEURON as it's backend simulator, thus follow their installation instructions at: 1) Neuron - https://www.neuron.yale.edu/neuron/download 2) PyNN - https://pypi.org/project/PyNN/ - http://neuralensemble.org/docs/PyNN/
 
