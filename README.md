@@ -31,8 +31,10 @@ The model is simulated using PyNN with NEURON as it's backend simulator, thus fo
 
 ## Model Setup: 
 1) Copy the included PyNN files from the downloaded model folder to their corresponding location on your computer (i.e. the directory of your PyNN instatllation - Updated PyNN files are needed for correct simulation of the multicompartmental cortical neurons and for loading model simulations from a presimulated steady state.
-			 2) Compile the NEURON model mod files using either mknrndll or nrnivmodl, for windows or Linux, respectively.
-			 3) Run run_CBG_MU_Pool_Model_to_SS.py Example: 1) From the command line/terminal navigate to the folder containing the model. 2) Execute "python run_CBG_Model_to_SS.py neuron"
+
+2) Compile the NEURON model mod files using either mknrndll or nrnivmodl, for windows or Linux, respectively.
+
+3) Run run_CBG_MU_Pool_Model_to_SS.py Example: 1) From the command line/terminal navigate to the folder containing the model. 2) Execute "python run_CBG_Model_to_SS.py neuron"
 
     Explanation: There is an initial transient period in the model (~8 seconds). This model simulation runs the model for 
     the transient period and creates a binary file (steady_state.bin) at the end of the simulation. This binary file captures 
