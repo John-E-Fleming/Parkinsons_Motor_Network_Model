@@ -1,4 +1,32 @@
-Network model of the parkinsonian motor network model including a cortico-basal ganglia network coupled to a motoneuron pool. The model simulates DBS to test tremor- and beta-based closed-loop DBS control strategies. A journal paper describing the model has been published at https://iopscience.iop.org/article/10.1088/1741-2552/acfbfa/meta. If using the model, reference it's original publication as follows:
+# Parkinsonian Motor Network Model Code
+---
+
+## General Information
+
+This repository contains python code for simulating a Hodgkin-Huxley based neural network model of the parkinsonian motor network during deep brain stimulation (DBS). The motor network is comprised of a model of the cortico-basal ganglia network coupled to a motoneuron pool. The model simulates clinically relevant output signals from the motor network including a model of the local field potential in the vicinity of the DBS electrode, and electromyography and force signals generated due to activation of the motoneuron pool. The model can be used to explore tremor- and beta-based closed-loop DBS control strategies. 
+
+<br/>
+
+<br/>
+
+![alt text](https://content.cld.iop.org/journals/1741-2552/20/5/056029/revision2/jneacfbfaf2_hr.jpg)
+
+<sup><sub>Fleming, J.E., Senneff, S. and Lowery, M.M., 2023. Multivariable closed-loop control of deep brain stimulation for Parkinson’s disease. Journal of Neural Engineering, 20(5), p.056029. </sup></sub>
+
+<br/>
+<br/>
+
+## Citations
+The code contained in this repository for simulation of the motor network model and multivariable control DBS approaches is companion to the paper:  
+> "Multivariable closed-loop control of deep brain stimulation for Parkinson’s disease"  
+>   John E. Fleming, Sageanne Senneff, Madeleine M. Lowery
+>    October 4, 2023 : 056029  
+>    DOI: 10.1088/1741-2552/acfbfa  
+
+which should be cited for academic use of this code.  
+<br/>
+
+A journal paper describing the model has been published at https://iopscience.iop.org/article/10.1088/1741-2552/acfbfa/meta. If using the model, reference it's original publication as follows:
 
 Fleming, J.E., Senneff, S. and Lowery, M.M., 2023. Multivariable closed-loop control of deep brain stimulation for Parkinson’s disease. Journal of Neural Engineering, 20(5), p.056029.
 
