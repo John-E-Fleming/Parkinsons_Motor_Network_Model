@@ -39,7 +39,9 @@ The model is simulated using PyNN with NEURON as it's backend simulator, thus fo
 2) Compile the NEURON model mod files using either mknrndll or nrnivmodl, for windows or Linux, respectively.
 
 3) Run run_CBG_MU_Pool_Model_to_SS.py
-       Example:
+
+   Example:
+
            1) From the command line/terminal navigate to the folder containing the model.
 
            2) Execute "python run_CBG_Model_to_SS.py neuron"
